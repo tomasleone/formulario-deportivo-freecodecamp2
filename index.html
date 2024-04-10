@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Deportivo</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header>
+        <img src="https://cdn-icons-png.flaticon.com/128/899/899921.png" alt="Icono 1" class="icono-izquierdo">
+        <h1 id="title">Formulario Deportivo</h1>
+        <p id="description">formulario seleccion argentina 2023.</p>
+        <img src="https://cdn-icons-png.flaticon.com/128/805/805404.png" alt="Icono 2" class="icono-derecho">
+      </header>
+      
+        <div class="formulario">
+          <form id="survey-form">
+            <div class="info">
+              <label id="name-label" for="name">Ingrese su nombre: <input id="name" name="nombre" type="text" required placeholder="Ingrese su nombre" /></label>
+              <label id="email-label" for="email">Ingrese su email: <input id="email" name="email" type="email" required placeholder="Ingrese su email" /></label>
+              <label id="number-label" for="number">Ingrese su edad: <input id="number" name="edad" type="number" min="10" max="99" placeholder="Edad"/></label>
+            </div>
+            <label for="select">Actualmente cual es tu jugador favorito de la seleccion?
+                <select id="dropdown" >
+                  <option value="">(selecciones una opcion)</option>
+                  <option value="1">Lionel Messi</option>
+                  <option value="2">Rodrigo De Paul</option>
+                  <option value="3">Enzo Fernandez</option>
+                  <option value="4">Otro</option>
+                </select>
+              </label>
+              <label for="name">Cree que Argentina pueda repetir el titulo en el proximo mundial ?<input id="name" type="radio" name="opcion" class="inline" value="Si"/> Si</label>
+              <label for="name"><input id="name" type="radio" name="opcion" class="inline" value="No"/> No</label>
+              <label for="name"><input id="name" type="radio" name="opcion" class="inline" value="Anulo Mufa"/> Anulo Mufa</label>
+            <label for="select2">Cual considera que es la mejor seleccion argentina historica?
+                <select id="dropdown2" >
+                  <option value="">(selecciones una opcion)</option>
+                  <option value="1">Argentina 2022</option>
+                  <option value="2">Argentina 2014</option>
+                  <option value="3">Argentina 2006</option>
+                  <option value="4">Argentina 1994</option>
+                  <option value="5">Argentina 1990</option>
+                  <option value="6">Argentina 1986</option>
+                  <option value="7">Argentina 1978</option>
+                  <option value="8">Otra</option>
+                </select>
+              </label>
+              <div class="partido5">
+              <p>Que jugadores elegirias para jugar un partido de futbol 5?</p>
+              <label><input name="jugador" value="Messi" type="checkbox" class="input-checkbox" />Messi</label>
+              <label><input name="jugador" value="Riquelme" type="checkbox" class="input-checkbox" />Riquelme</label>
+              <label><input name="jugador" value="Dibu Martinez" type="checkbox" class="input-checkbox" />Dibu Martinez</label>
+              <label><input name="jugador" value="Maradona" type="checkbox" class="input-checkbox" />Maradona</label>
+              <label><input name="jugador" value="Abbondanzieri" type="checkbox" class="input-checkbox" />Roberto Abbondanzieri</label>
+              <label><input name="jugador" value="Otamendi" type="checkbox" class="input-checkbox" />Otamendi</label>
+              <label><input name="jugador" value="Cuti Romero" type="checkbox" class="input-checkbox" />Cuti Romero</label>
+              <label><input name="jugador" value="Julian Alvarez" type="checkbox" class="input-checkbox" />Julian Alvarez</label>
+              <label><input name="jugador" value="Lautaro Martinez" type="checkbox" class="input-checkbox" />Lautaro Martinez</label>
+              <label><input name="jugador" value="Batistuta" type="checkbox" class="input-checkbox" />Batistuta</label>
+              <label><input name="jugador" value="Ruggeri" type="checkbox" class="input-checkbox" />Ruggeri</label>
+              <label><input name="jugador" value="Batistuta" type="checkbox" class="input-checkbox" />Batistuta</label>
+              </div>
+      
+              <label for="sugerencia">Sugerencias para agregar o mejorar al formulario:
+                <textarea id="sugerencia" name="sugerencias" rows="3" cols="30" placeholder="Sugerencias..."></textarea>
+              </label>
+              <input id="submit" type="submit" value="Enviar" />
+      
+          </form>
+      
+        </div>
+</body>
+</html>
